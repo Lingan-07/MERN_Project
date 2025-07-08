@@ -29,7 +29,7 @@ export default function Home() {
         <p className='mt-10 text-lg sedan-regular'> Welcome <Link to='/profile'><span  className='cursor-pointer underline text-dblue'>{currentUser.username}</span></Link>, How can we help you today?</p>
         ) : (
         <h6 className='text-xl mt-5 sedan-regular'>
-          Sign up for EduTrack now and experience the difference firsthand...
+          Sign up for iLearn Hub now and experience the difference firsthand...
         </h6>
         )}
         {currentUser ? (
